@@ -11,6 +11,7 @@ chdir($repo_dir);
 // Execute the command
 $output = shell_exec($command);
 
+echo "<pre>Command executed: $command</pre>";
 // Output the result
 echo "<pre>$output</pre>";
 ?>
