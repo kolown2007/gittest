@@ -3,7 +3,7 @@
 $repo_dir = '/gittest/gittest';
 
 // Define the command you want to execute
-$command = 'git pull origin master';
+$command = 'git pull origin main';
 
 // Change to the repository directory
 chdir($repo_dir);
